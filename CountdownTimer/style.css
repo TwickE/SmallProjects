@@ -26,6 +26,8 @@ h1{
     flex-wrap: wrap;
     justify-content: center;
     margin: 1rem, 2rem;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 50px;
 }
 
 .big-text{
@@ -39,6 +41,7 @@ h1{
     text-align: center;
     margin-right: 2rem;
     margin-left: 2rem;
+    margin-bottom: 1.3rem;
 }
 
 .countdown-el span{
