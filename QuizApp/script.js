@@ -1,33 +1,33 @@
 const quizData = [
     {
         question: "What does HTML stand for?",
-        a: "Cascading Style Sheet",
+        a: "Hyper Timing Monitoring Language",
         b: "Hypertext Markup Language",
-        c: "JavaScripr Object Notation",
-        d: "Aplication Programing Interface",
+        c: "Hyperobject Making Language",
+        d: "Hifen Tag Based Markup Language",
         correct: "b"
     },
     {
         question: "What does CSS stand for?",
         a: "Cascading Style Sheet",
-        b: "Hypertext Markup Language",
-        c: "JavaScripr Object Notation",
-        d: "Aplication Programing Interface",
+        b: "Cascading Sort Sheet",
+        c: "Cascading Sort Style",
+        d: "Cascading Sorting System",
         correct: "a"
     },
     {
         question: "What does JSON stand for?",
-        a: "Cascading Style Sheet",
-        b: "Hypertext Markup Language",
+        a: "Java Object Notation",
+        b: "JavaScripr Orientation Notion",
         c: "JavaScripr Object Notation",
-        d: "Aplication Programing Interface",
+        d: "Java Orientation Notation",
         correct: "c"
     },
     {
         question: "What does API stand for?",
-        a: "Cascading Style Sheet",
-        b: "Hypertext Markup Language",
-        c: "JavaScripr Object Notation",
+        a: "Aproved Pining Interface",
+        b: "Aplication Pining Interface",
+        c: "Aproved Programing Interface",
         d: "Aplication Programing Interface",
         correct: "d"
     },
