@@ -17,4 +17,4 @@ Recipe App Home Screen Image
 ![Recipe App Home Screen](https://github.com/TwickE/ReadmeImages/blob/main/RecipeApp1.png?raw=true)
 
 Recipe App Recipe Screen Image
-![Recipe App Recipe Screen](https://github.com/TwickE/ReadmeImages/blob/main/RecipeApp1.png?raw=true)
+![Recipe App Recipe Screen](https://github.com/TwickE/ReadmeImages/blob/main/RecipeApp2.png?raw=true)
