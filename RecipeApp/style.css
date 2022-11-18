@@ -131,11 +131,6 @@ header button {
     color: #db5050;
 } */
 
-
-
-
-
-
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
 
 * {
@@ -166,41 +161,64 @@ img {
     width: 400px;
 }
 
-header {
+header div {
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 1rem;
+    background-color: #b8ffd3;
+    margin: 20px 40px 20px 40px;
+    border-radius: 50px;
+    height: 60px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: 3px solid #459162;
 }
 
 header input {
-    background-color: #eee;
+    background-color: transparent;
     border: none;
-    border-radius: 3px;
     font-family: inherit;
-    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    width: 250px;
+    height: 100%;
+}
+
+header input:focus {
+    outline: none;
 }
 
 header button {
     background-color: transparent;
     border: none;
-    color: rgb(138, 129, 141);
+    color: #459162;
     font-size: 1.5rem;
     margin-left: 10px;
+    cursor: pointer;
 }
 
 .fav-container {
-    background-color: rgb(243, 225, 255);
-    padding: 0.25rem 1rem;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #b8ffd3;
+    padding: 1rem 1rem 0.5rem 1rem;
+}
+
+h3 {
+    margin: 0;
 }
 
 .fav-meals {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: normal;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: flex-start;
     list-style-type: none;
     padding: 0;
+    margin: 0;
 }
 
 .fav-meals li {
@@ -258,7 +276,8 @@ header button {
 .meal-header .random {
     position: absolute;
     top: 1rem;
-    background-color: #fff;
+    background-color: #459162;
+    color: #fff;
     padding: 0.25rem 1rem;
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
@@ -290,7 +309,7 @@ header button {
 }
 
 .meal-body .fav-btn.active {
-    color: rebeccapurple;
+    color: #fb4c4c;
 }
 
 .popup-container {

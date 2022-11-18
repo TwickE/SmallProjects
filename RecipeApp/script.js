@@ -6,16 +6,17 @@ fetchFavMeals();
 async function getRandomMeal() {
     const resp = await fetch("https://www.themealdb.com/api/json/v1/1/random.php");
 
+
     const respData = await resp.json();
     const randomMeal = respData.meals[0];
-
-    console.log(randomMeal);
 
     addMeal(randomMeal, true);
 }
 
 async function getMealById(id) {
     const resp = await fetch("https://www.themealdb.com/api/json/v1/1/lookup.php?i=" + id);
+
+
 
     const respData = await resp.json();
     const meal = respData.meals[0];
@@ -24,7 +25,9 @@ async function getMealById(id) {
 }
 
 async function getMealsBySearch(term) {
-    const meals = fetch("https://www.themealdb.com/api/json/v1/1/search.php?s=" + term);
+    const meals = await fetch("https://www.themealdb.com/api/json/v1/1/search.php?s=" + term);
+
+
 }
 
 function addMeal(mealData, random = false) {
@@ -35,26 +38,34 @@ function addMeal(mealData, random = false) {
 
     meal.innerHTML = `
         <div class="meal-header">
-            ${random ? `<span class="random">Random Reciepe</span>` : ``}
-            <img src="${mealData.strMealThumb}" alt="${mealData.strMeal}">
+            ${random ? `<span class="random">Random Reciepe</span>` : ""}
+            <img src="
+                ${mealData.strMealThumb}
+            " alt="
+                ${mealData.strMeal}
+            ">
         </div>
         <div class="meal-body">
-            <h4>${mealData.strMeal}</h4>
+            <h4>
+                ${mealData.strMeal}
+            </h4>
             <button class="fav-btn">
                 <i class="fas fa-heart"></i>
             </button>
         </div>
+    
+    
     `;
 
     const btn = meal.querySelector(".meal-body .fav-btn");
 
-    btn.addEventListener("click", (e) => {
-        if(e.target.classList.contains("active")) {
+    btn.addEventListener("click", () => {
+        if(btn.classList.contains("active")) {
             removeMealLS(mealData.idMeal);
-            e.target.classList.remove("active");
+            btn.classList.remove("active");
         }else{
             addMealLS(mealData.idMeal);
-            e.target.classList.toggle("active");
+            btn.classList.add("active");
         }
     });
 
@@ -70,7 +81,10 @@ function addMealLS(mealId) {
 function removeMealLS(mealId) {
     const mealIds = getMealsLS();
 
-    localStorage.setItem("mealIds", JSON.stringify(mealIds.filter(id => id != mealId)));
+    localStorage.setItem("mealIds", JSON.stringify(mealIds.filter((id) => id != mealId)));
+
+
+
 }
 
 function getMealsLS() {
@@ -81,22 +95,19 @@ function getMealsLS() {
 
 async function fetchFavMeals() {
     const mealIds = getMealsLS();
-    console.log("1: " + mealIds);
+
     const meals = [];
+
     for(let i = 0; i < mealIds.lenght; i++) {
-        
         const mealId = mealIds[i];
-        const meal = await getMealById(mealId);
-        console.log(meal);
+        meal = await getMealById(mealId);
         meals.push(meal);
     }
 
     console.log(meals);
+
+    //add them to screen
 } */
-
-
-
-
 
 const mealsEl = document.getElementById("meals");
 const favoriteContainer = document.getElementById("fav-meals");
