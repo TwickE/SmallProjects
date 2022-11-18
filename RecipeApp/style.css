@@ -197,6 +197,7 @@ h3 {
 }
 
 .popup {
+    height: 600px;
     background-color: #fff;
     border-radius: 5px;
     padding: 0 2rem;
@@ -219,4 +220,15 @@ h3 {
 
 .meal-info h1 {
     text-align: center;
+}
+
+.meal-info div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.meal-info div img{
+    width: 350px;
+    border-radius: 10px;
 }
