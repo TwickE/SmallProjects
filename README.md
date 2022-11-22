@@ -26,3 +26,7 @@ Notes App Home Screen Image
 ## 5-Project ToDo App
 ToDo App Home Screen Image
 ![Recipe App Recipe Screen](https://github.com/TwickE/ReadmeImages/blob/main/ToDoApp.png?raw=true)
+
+## 6-Project Movies App
+Movies App Home Screen Image
+![Recipe App Recipe Screen](https://github.com/TwickE/ReadmeImages/blob/main/MoviesApp.png?raw=true)
