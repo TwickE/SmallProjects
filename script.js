@@ -6,25 +6,25 @@ const card5 = document.getElementById('card5');
 const card6 = document.getElementById('card6');
 
 card1.addEventListener('click', function() {
-    window.location.href = '/CountdownTimer/index.html';
+    window.location.href = '/SmallProjects/CountdownTimer/index.html';
 });
 
 card2.addEventListener('click', function() {
-    window.location.href = '/QuizApp/index.html';
+    window.location.href = '/SmallProjects/QuizApp/index.html';
 });
 
 card3.addEventListener('click', function() {
-    window.location.href = '/RecipeApp/index.html';
+    window.location.href = '/SmallProjects/RecipeApp/index.html';
 });
 
 card4.addEventListener('click', function() {
-    window.location.href = '/NotesApp/index.html';
+    window.location.href = '/SmallProjects/NotesApp/index.html';
 });
 
 card5.addEventListener('click', function() {
-    window.location.href = '/TodoApp/index.html';
+    window.location.href = '/SmallProjects/TodoApp/index.html';
 });
 
 card6.addEventListener('click', function() {
-    window.location.href = '/MovieApp/index.html';
+    window.location.href = '/SmallProjects/MovieApp/index.html';
 });
