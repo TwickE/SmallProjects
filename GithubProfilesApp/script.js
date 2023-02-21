@@ -19,10 +19,11 @@ function createUserCard(user) {
                 <h2>${user.name}</h2>
                 <p>${user.bio}</p>
                 <ul>
-                    <li>Followers: ${user.followers}</li>
-                    <li>Following: ${user.following}</li>
-                    <li>Repos: ${user.public_repos}</li>
+                    <li>${user.followers} <b>Followers</b></li>
+                    <li>${user.following} <b>Following</b></li>
+                    <li>${user.public_repos} <b>Repos</b></li>
                 </ul>
+                <a href="${user.html_url}"><i class="fa-solid fa-link"></i> Github Profile</a>
             </div>
         </div>
     `;

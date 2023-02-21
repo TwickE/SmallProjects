@@ -17,7 +17,13 @@ body {
 }
 
 input {
-    
+    min-width: 15rem;
+    height: 3rem;
+    background-color: #2a2a72;
+    border: 3px solid #31234f;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 10px;
 }
 
 .card {
@@ -31,6 +37,7 @@ input {
     border-radius: 20px;
     box-shadow: 5px 5px 10px 0px hsla(0, 0%, 100%, 0.1);
     padding: 2.5rem;
+    margin-top: 3rem;
 }
 
 .card img {
@@ -44,7 +51,7 @@ input {
 .card-info {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     width: 100%;
     height: 100%;
     color: #ffffff;
@@ -60,6 +67,22 @@ input {
     font-size: 1rem;
     font-weight: 400;
     margin: 0;
-    margin-top: 1rem;
 }
 
+.card-info ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.card-info a {
+    color: #ffffff;
+}
+
+.card-info a:hover {
+    color: #7848c6;
+}
