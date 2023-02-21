@@ -4,6 +4,7 @@ const card3 = document.getElementById('card3');
 const card4 = document.getElementById('card4');
 const card5 = document.getElementById('card5');
 const card6 = document.getElementById('card6');
+const card7 = document.getElementById('card7');
 
 card1.addEventListener('click', function() {
     window.location.href = '/SmallProjects/CountdownTimer/index.html';
@@ -27,4 +28,8 @@ card5.addEventListener('click', function() {
 
 card6.addEventListener('click', function() {
     window.location.href = '/SmallProjects/MovieApp/index.html';
+});
+
+card7.addEventListener('click', function() {
+    window.location.href = '/SmallProjects/GithubProfilesApp/index.html';
 });

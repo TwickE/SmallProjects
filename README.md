@@ -21,12 +21,16 @@ Recipe App Recipe Screen Image
 
 ## 4-Project Notes App
 Notes App Home Screen Image
-![Notes App Recipe Screen](https://github.com/TwickE/ReadmeImages/blob/main/NotesApp.png?raw=true)
+![Notes App Home Screen](https://github.com/TwickE/ReadmeImages/blob/main/NotesApp.png?raw=true)
 
 ## 5-Project ToDo App
 ToDo App Home Screen Image
-![ToDo App Recipe Screen](https://github.com/TwickE/ReadmeImages/blob/main/ToDoApp.png?raw=true)
+![ToDo App Home Screen](https://github.com/TwickE/ReadmeImages/blob/main/ToDoApp.png?raw=true)
 
 ## 6-Project Movies App
 Movies App Home Screen Image
-![Movies App Recipe Screen](https://github.com/TwickE/ReadmeImages/blob/main/MoviesApp.png?raw=true)
+![Movies App Home Screen](https://github.com/TwickE/ReadmeImages/blob/main/MoviesApp.png?raw=true)
+
+## 6-Project Github Profiles App
+Movies App Home Screen Image
+![Github Profiles App Home Screen](https://github.com/TwickE/ReadmeImages/blob/main/GithubProfiles.png?raw=true)
