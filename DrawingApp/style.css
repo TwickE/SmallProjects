@@ -15,6 +15,10 @@ body {
     flex-direction: column;
 }
 
+h1 {
+    color: #343cd6;
+}
+
 canvas {
     border: 2px solid #343cd6;
     cursor: crosshair;
