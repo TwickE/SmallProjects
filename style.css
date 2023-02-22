@@ -22,7 +22,7 @@ h1 {
     margin-bottom: 4rem;
 }
 
-.container {
+#container {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -68,7 +68,7 @@ h1 {
         text-align: center;
     }
 
-    .container {
+    #container {
         flex-direction: column;
         flex-wrap: nowrap;
         gap: 1rem;
