@@ -33,3 +33,13 @@ card6.addEventListener('click', function() {
 card7.addEventListener('click', function() {
     window.location.href = '/SmallProjects/GithubProfilesApp/index.html';
 });
+
+card7.addEventListener('click', function() {
+    window.location.href = '/SmallProjects/DrawingApp/index.html';
+});
+
+/* const cards = document.querySelectorAll('.card');
+
+cards.forEach(card => {
+    
+}); */
