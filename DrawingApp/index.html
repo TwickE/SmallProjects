@@ -4,11 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Drawing App</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
 <body>
-    <h1>hello</h1>
+    <canvas id="canvas" width="500" height="500"></canvas>
+    <div class="toolbox">
+        <button id="increase">+</button>
+        <span id="size">20</span>
+        <button id="decrease">-</button>
+        <input type="color" id="color">
+        <button id="clear">💩</button>
+    </div>
 </body>
 </html>
