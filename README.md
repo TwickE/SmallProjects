@@ -1,6 +1,9 @@
 # SmallProjects
 Small Projects created using HTML, CSS and Javascript
 
+## Main Page
+![Countdown App](https://github.com/TwickE/ReadmeImages/blob/main/SmallProjects.png?raw=true)
+
 ## 1-Project Countdown App
 Countdown App Image
 ![Countdown App](https://github.com/TwickE/ReadmeImages/blob/main/CountdownApp.png?raw=true)
